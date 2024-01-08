@@ -1,22 +1,32 @@
 body {
     font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.div-1 {
+.hero-container {
     background-image: url('../images/Banner\ Image.png');
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     border-radius: 16px;
-    background: #070211 0%, rgba(7, 2, 17, 0.00) 100%;
-    max-width: 1320px;
-    max-height: 600px;
-    margin: 50px 140px 0 140px;
+    background: #070211 0%, rgb(7, 2, 17) 100%;
+    max-width: 100vw;
+    max-height: 100vh;
 }
-
+.hero-content {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    width: 100%;
+    height: 100%;
+}
 .happy {
     color: #FFF;
     text-align: center;
     font-size: 32px;
     font-weight: 400;
+    font-family: 'Merriweather';
 }
 
 .text-h {
@@ -29,39 +39,108 @@ body {
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
+    font-family: 'Merriweather';
 }
 
 .party-text {
     padding: 0px 344px 177px 344px;
 }
-.main-h{
-    margin: 120px 460px 0px 460px;
+
+.main-h {
+    /* margin: 120px 460px 120px 460px; */
+    text-align: center;
+    margin-bottom: 50px;
 }
-.h1{
+
+.h1 {
     color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 88px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 
 }
-.h5{
+
+.h5 {
     color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 0 10px 0;
 }
-.h2{
+
+.h2 {
     color: #070211;
-text-align: center;
-font-family: Inter;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.party-container {
+    background-image: url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* background-size: cover; */
+}
+.party-content {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    padding: 60px 100px;
+    display: flex;
+    gap: 20px;
+}
+.party-heading-title {
+    max-width: 700px;
+    color: #FFF;
+    font-family: 'Merriweather';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+}
+.party-description {
+    max-width: 700px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.party-join-button {
+    background: transparent;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 2px;
+}
+.party-join-button:hover {
+    background: rgb(13, 13, 108);
+
+}
+.event-date-container {
+
+}
+.main-h1 {
+    padding: 126px 550px 298px 126px;
+}
+
+.Welcome {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
 }
