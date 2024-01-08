@@ -1,0 +1,36 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.div-1 {
+    background-image: url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background: #070211 0%, rgba(7, 2, 17, 0.00) 100%;
+    max-width: 1320px;
+    max-height: 600px;
+    margin: 50px 140px 0 140px;
+}
+
+.happy {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.text-h {
+    padding: 177px 530px 0px 530px;
+}
+
+.party {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+.party-text {
+    padding: 0px 344px 177px 344px;
+}
